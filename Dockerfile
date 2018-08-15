@@ -1,4 +1,3 @@
-FROM alpine:3.8
+FROM hashicorp/packer:1.2.5
 RUN apk add --no-cache \
-    ansible
-    packer
+    ansible 
