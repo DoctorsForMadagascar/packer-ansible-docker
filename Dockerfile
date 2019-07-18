@@ -8,6 +8,6 @@ RUN apk add --no-cache --update \
     openssh \
     python3
     
-RUN pip3 install aws-cli --upgrade --user
+RUN pip3 install aws-cli --upgrade
 
 ENTRYPOINT ["bin/packer"]
