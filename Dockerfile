@@ -7,7 +7,8 @@ RUN apk add --no-cache --update \
     ca-certificates \
     ansible \
     openssh \
-    ruby
+    ruby \
+    ruby-json
 
 RUN pip3 install --upgrade pip==8.1.1
 
